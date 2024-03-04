@@ -4,14 +4,14 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Iosevka Term Nerd Font Mono:size=14:style=Regular"
+	"IosevkaComfyFixed Nerd Font:size=14:style=Regular"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#E1E1E1", "#141414" },
-	[SchemeSel] = { "#141414", "#A7C080" },
-	[SchemeOut] = { "#141414", "#E67E80" },
+	[SchemeNorm] = { "#000000", "#ffffff" },
+	[SchemeSel] = { "#193668", "#e0e0e0" },
+	[SchemeOut] = { "#000000", "#E67E80" },
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 0;
